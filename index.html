@@ -175,10 +175,10 @@
       line-height: 1.15;
       margin-bottom: 20px;
       letter-spacing: -0.5px;
-    }
-
-    .hero h1 .rocket {
-      font-size: 0.85em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
     }
 
     .hero p {
@@ -331,6 +331,15 @@
     .check-svg {
       width: 26px;
       height: 26px;
+    }
+
+    .V-logo {
+      width: 236px;
+      height: 56px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      background-color: #ffffff;
     }
 
     .service-card h3 {
@@ -843,7 +852,10 @@
     <canvas class="hero-particles" id="particleCanvas"></canvas>
     <div class="hero-content">
       <div class="hero-badge">Pakistan's Premier HR Partner</div>
-      <h1>Introducing Vertex HR Solutions <span class="rocket">🚀</span></h1>
+      <h1>Introducing</h1>
+      <h1>
+        <img src="New-logo.png" class="V-logo" alt="Vertex HR Solutions Logo">
+      </h1>
       <p>Empowering Businesses and Careers to Thrive — through strategic talent acquisition and expert HR advisory.</p>
       <div class="hero-btns">
         <a href="#services" class="btn-primary">Explore Services</a>
@@ -863,10 +875,7 @@
     <div class="services-grid">
       <div class="service-card fade-up">
         <div class="service-icon">
-          <svg class="check-svg" viewBox="0 0 24 24" fill="none">
-            <path d="M20 6L9 17l-5-5" stroke="#B8860B" stroke-width="2.5" stroke-linecap="round"
-              stroke-linejoin="round" />
-          </svg>
+          <span style="font-size: 26px;">🔍</span>
         </div>
         <h3>Talent Acquisition Excellence</h3>
         <p>We connect you with top-tier candidates through a rigorous, data-driven recruitment process tailored to your
@@ -874,10 +883,7 @@
       </div>
       <div class="service-card fade-up">
         <div class="service-icon">
-          <svg class="check-svg" viewBox="0 0 24 24" fill="none">
-            <path d="M20 6L9 17l-5-5" stroke="#B8860B" stroke-width="2.5" stroke-linecap="round"
-              stroke-linejoin="round" />
-          </svg>
+          <span style="font-size: 26px;">💼</span>
         </div>
         <h3>HR Consulting & Advisory</h3>
         <p>Strategic HR advisory that transforms your people practices — from organizational design to performance
@@ -885,10 +891,7 @@
       </div>
       <div class="service-card fade-up">
         <div class="service-icon">
-          <svg class="check-svg" viewBox="0 0 24 24" fill="none">
-            <path d="M20 6L9 17l-5-5" stroke="#B8860B" stroke-width="2.5" stroke-linecap="round"
-              stroke-linejoin="round" />
-          </svg>
+          <span style="font-size: 26px;">⚖️</span>
         </div>
         <h3>Compliance & Best Practices</h3>
         <p>Stay audit-ready and legally protected. We ensure your HR policies meet the latest regulatory standards and
@@ -896,10 +899,7 @@
       </div>
       <div class="service-card fade-up">
         <div class="service-icon">
-          <svg class="check-svg" viewBox="0 0 24 24" fill="none">
-            <path d="M20 6L9 17l-5-5" stroke="#B8860B" stroke-width="2.5" stroke-linecap="round"
-              stroke-linejoin="round" />
-          </svg>
+          <span style="font-size: 26px;">🧩</span>
         </div>
         <h3>Customized Workforce Solutions</h3>
         <p>Flexible staffing models, workforce planning, and bespoke HR programs built around the unique rhythm of your
